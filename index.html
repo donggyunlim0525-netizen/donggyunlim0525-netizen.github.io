@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>임동균 — KAIST MBA</title>
+<meta name="description" content="대기업, 공기업, 창업과 지분 매각을 거쳐 KAIST MBA에서 AI 창업팀을 이끌고 있는 임동균의 소개 페이지입니다.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --bg: #ffffff; --ink: #000000; --sub: #555555; --mute: #8a8a8a;
+    --line: #e5e5e5; --chip: #f7f7f7; --blue: #1a5cff; --blue-soft: #eef4ff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px; line-height: 1.65; letter-spacing: -0.02em; word-break: keep-all;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  a { color: inherit; }
+
+  nav { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--line); }
+  nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 36px; }
+  nav a { display: block; padding: 16px 2px 14px; font-size: 14px; font-weight: 700; color: var(--sub); text-decoration: none; border-bottom: 2px solid transparent; }
+  nav a:hover { color: var(--ink); border-bottom-color: var(--blue); }
+
+  header { text-align: center; padding: 88px 0 72px; }
+  .eyebrow { font-size: 14px; font-weight: 700; color: var(--blue); }
+  h1 { font-size: clamp(44px, 9vw, 72px); font-weight: 700; line-height: 1.15; margin: 12px 0 4px; letter-spacing: -0.03em; }
+  .en { font-size: 18px; color: var(--mute); margin: 0 0 24px; }
+  .lead { font-size: clamp(20px, 3.2vw, 26px); font-weight: 700; line-height: 1.45; max-width: 24em; margin: 0 auto 32px; }
+  .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .btn {
+    display: inline-block; padding: 12px 24px; border-radius: 100px;
+    border: 1px solid var(--line); background: #fff; text-decoration: none; font-size: 14px; font-weight: 700;
+  }
+  .btn.primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .btn:hover { border-color: var(--blue); }
+
+  .path { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px; margin: 48px 0 0; padding: 0; list-style: none; }
+  .path li { background: var(--chip); border-radius: 100px; padding: 12px 22px; font-size: 14px; font-weight: 700; color: var(--sub); }
+  .path li.on { background: #fff; color: var(--blue); box-shadow: inset 0 0 0 1.5px var(--blue); }
+  .path .arrow { background: none; padding: 0; color: var(--mute); font-weight: 400; }
+
+  section { padding: 72px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: clamp(24px, 4vw, 32px); font-weight: 700; line-height: 1.35; text-align: center; margin: 0 0 12px; letter-spacing: -0.03em; }
+  .desc { text-align: center; color: var(--sub); max-width: 36em; margin: 0 auto 12px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 40px; }
+  .card { border: 1px solid var(--line); border-radius: 20px; padding: 28px 24px; background: #fff; }
+  .card .no { display: inline-block; font-size: 12px; font-weight: 700; color: var(--blue); background: var(--blue-soft); border-radius: 100px; padding: 3px 10px; }
+  .card h3 { font-size: 20px; font-weight: 700; margin: 14px 0 8px; }
+  .card p { font-size: 15px; color: var(--sub); margin: 0; }
+  .fill .card { background: var(--chip); border-color: var(--chip); }
+
+  .hello { text-align: center; background: var(--blue-soft); border-radius: 24px; padding: 48px 24px; }
+  .hello h2 { margin-bottom: 8px; }
+  .hello .desc { margin-bottom: 28px; }
+
+  footer { border-top: 1px solid var(--line); padding: 28px 0 48px; font-size: 13px; color: var(--mute); text-align: center; }
+  @media (max-width: 520px) { nav ul { gap: 22px; } header { padding: 56px 0 48px; } section { padding: 56px 0; } .path .arrow { display: none; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#about">소개</a></li>
+    <li><a href="#startup">창업</a></li>
+    <li><a href="#interests">관심사</a></li>
+    <li><a href="#hello">연락</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">KAIST MBA · 2026 가을</div>
+    <h1>임동균</h1>
+    <p class="en">Donggyun Lim</p>
+    <p class="lead">대기업과 공기업을 거쳐 창업과 지분 매각을 경험했고, 지금은 MBA에서 AI 창업팀을 이끌고 있습니다.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://www.linkedin.com/in/lim-donggyun-38a3613a5/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn" href="https://github.com/donggyunlim0525-netizen" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <ul class="path">
+      <li>대기업</li><li class="arrow">→</li>
+      <li>공기업</li><li class="arrow">→</li>
+      <li>창업 · 지분 매각</li><li class="arrow">→</li>
+      <li>KAIST MBA</li><li class="arrow">→</li>
+      <li class="on">AI 창업팀</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <h2>안녕하세요, 임동균입니다</h2>
+      <p class="desc">대기업과 공기업에서 일했고, 창업한 회사의 지분을 매각한 뒤 KAIST MBA 과정에 왔습니다. 이곳에서 AI 창업팀을 꾸려 다시 만들고 있습니다.</p>
+      <p class="desc">코딩을 배운 적은 없지만, 이 페이지는 AI와 함께 직접 만들었습니다.</p>
+    </div>
+  </section>
+
+  <section id="startup">
+    <div class="wrap">
+      <h2>조직의 업무 맥락을<br>AI가 쓸 수 있는 데이터로 만듭니다</h2>
+      <p class="desc">AI 데이터 처리와 온프레미스 RAG를 다루는 기술 스타트업을 운영하고 있습니다.</p>
+      <div class="grid">
+        <div class="card"><span class="no">01</span><h3>AI 데이터 처리</h3><p>흩어져 있는 업무 자료를 AI가 활용할 수 있는 형태로 처리합니다.</p></div>
+        <div class="card"><span class="no">02</span><h3>온프레미스 RAG</h3><p>조직 내부에 설치하는 레이어를 구축하고, 그 위에 RAG를 구성합니다.</p></div>
+        <div class="card"><span class="no">03</span><h3>업무 맥락의 데이터화</h3><p>부서와 팀 단위의 업무 맥락을 데이터로 가공해 제공합니다.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="wrap">
+      <h2>요즘 관심을 두는 것들</h2>
+      <div class="grid fill">
+        <div class="card"><span class="no">01</span><h3>재테크</h3><p>미국 주식의 지수와 종목, 금, 국채, 그리고 국내 주식 몇몇 종목에 투자하며 리밸런싱합니다. 사팔사팔은 능력이 안 돼서 못 하고, 할 수 있는 영역에 집중하는 편입니다.</p></div>
+        <div class="card"><span class="no">02</span><h3>운동</h3><p>헬스와 러닝을 하고, 하이록스(HYROX)를 합니다.</p></div>
+        <div class="card"><span class="no">03</span><h3>웰니스</h3><p>잘 쉬고 잘 먹는 것까지 포함해, 오래 가는 컨디션 관리에 관심이 있습니다.</p></div>
+        <div class="card"><span class="no">04</span><h3>팀 성장 기록</h3><p>팀이 어떻게 자라는지를 기록으로 남기는 일에 관심이 있습니다.</p></div>
+        <div class="card"><span class="no">05</span><h3>마케팅 · 브랜딩</h3><p>SNS 마케팅, 퍼스널 브랜딩, 브랜드 관리에 관심이 있습니다.</p></div>
+        <div class="card"><span class="no">06</span><h3>MBA 네트워킹</h3><p>MBA에서 네트워킹은 어떻게 하는 게 좋을지 계속 고민하고 있습니다.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hello">
+    <div class="wrap">
+      <div class="hello">
+        <h2>편하게 연락 주세요</h2>
+        <p class="desc">AI 활용, 창업, 투자, 운동 이야기라면 언제든 환영합니다. 가장 빠른 방법은 LinkedIn입니다.</p>
+        <div class="btns">
+          <a class="btn primary" href="https://www.linkedin.com/in/lim-donggyun-38a3613a5/" target="_blank" rel="noopener">LinkedIn으로 연락하기 ↗</a>
+          <a class="btn" href="https://github.com/donggyunlim0525-netizen" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 임동균 · <a href="https://github.com/donggyunlim0525-netizen">github.com/donggyunlim0525-netizen</a></div>
+</footer>
+
+</body>
+</html>
